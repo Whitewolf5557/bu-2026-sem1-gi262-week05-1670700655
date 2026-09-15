@@ -43,7 +43,7 @@ namespace Solution
 
         public void UseFireStorm()
         {
-            if (inventory.HasItem("FireStorm",1))
+            if (inventory.HasItem("FireStorm", 1))
             {
                 //stundent exercise: use FireStorm to attack 3 lower energy enemies on map
                 inventory.UseItem("FireStorm", 1);
